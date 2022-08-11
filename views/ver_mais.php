@@ -37,6 +37,8 @@ require('../db/fake_db.php');
                         if($id == $value['id']){
                             $existe_marmita = true;
                             $foto_marmita = $value['nome_imagem'];
+                            $titulo_imagem_marmita = $value['titulo_imagem'];
+                            $alt_imagem_marmita = $value['alt_imagem'];
                             $nome_marmita = $value['nome'];
                             $preco_marmita = $value['preço'];
                             $tamanhos_marmita = $value['tamanho'];
@@ -49,7 +51,7 @@ require('../db/fake_db.php');
                 <div class="card-container">
                     <div class="card-produto">
                         <div class="card-img">
-                            <img src="../img/<?=$foto_marmita?>" alt="foto marmita" title="foto marmita">
+                            <img src="../img/<?=$foto_marmita?>" alt="<?=$alt_imagem_marmita?>" title="<?=$titulo_imagem_marmita?>">
                         </div>
                         <div class="card-info">
                             <h1><?= $nome_marmita ?></h1>

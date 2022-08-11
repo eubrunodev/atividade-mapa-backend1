@@ -9,7 +9,7 @@ $marmitas = array(
         'preço' => '20,90', 
         'nome_imagem' => 'marmita-frango.webp',
         'titulo_imagem' => 'Marmita Parruda',
-        'Alt_imagem' => 'Marmita Parruda',
+        'alt_imagem' => 'Marmita Parruda',
         'ingredientes' => 'Coxa de Frango, Macarrão, Sopa de Batata, Costela de Boi e um tempero especial.',
     ),
     1 => array(
@@ -19,7 +19,7 @@ $marmitas = array(
         'preço' => '19,90', 
         'nome_imagem' => 'marmita-porco.png',
         'titulo_imagem' => 'Marmita Gosto do Povo',
-        'Alt_imagem' => 'Marmita Gosto do Povo',
+        'alt_imagem' => 'Marmita Gosto do Povo',
         'ingredientes' => 'Arroz, Feijão, Torresmo, Carne de Porco, Almeirão e Polenta.',
     ),
     2 => array(
@@ -29,7 +29,7 @@ $marmitas = array(
         'preço' => '19,90', 
         'nome_imagem' => 'marmita-simples.webp',
         'titulo_imagem' => 'Marmita Simples',
-        'Alt_imagem' => 'Marmita Simples',
+        'alt_imagem' => 'Marmita Simples',
         'ingredientes' => 'Arroz, Brócolis, Carne de panela.',
     )
 );
