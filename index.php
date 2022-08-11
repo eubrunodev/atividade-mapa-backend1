@@ -48,20 +48,22 @@
                     <?php
                         foreach($marmitas as $marmita){
                             $id = $marmita["id"];
-                            echo $id;
                             $img_marmita = $marmita["nome_imagem"];
                             $nome_marmita = $marmita["nome"];
                             $preco_marmita = $marmita["preço"];
                             $tamanho = $marmita["tamanho"];
                             echo "
                             <div class='card-marmita'>
-                                <form action='./views/ver_mais.php?id=$id' method='POST'>
-                                    <a href='/Atividades-facul/atividade_mapa/views/ver_mais.php?id=$id'><img src='./img/$img_marmita' alt='foto marmita' title='foto marmita' height='150' /></a>
-                                    <hr/>
-                                    <h1 value='nome'>$nome_marmita</h1>
-                                    <button type='submit' class='card-marmita-btn'>Ver mais</button>
-                                   
-                                </form>
+                                <div class='box'>
+                                    <form action='./views/ver_mais.php?id=$id' method='POST'>
+                                        <a href='/Atividades-facul/atividade_mapa/views/ver_mais.php?id=$id'><img src='./img/$img_marmita' alt='foto marmita' title='foto marmita' height='150' /></a>
+                                        <hr/>
+                                        <h1 value='nome'>$nome_marmita</h1>
+                                        <p>Clique em ver mais, para mais informações</p>
+                                        <button type='submit' class='card-marmita-btn'>Ver mais</button>
+                                    
+                                    </form>
+                                </div>
                             </div>
                             ";
                         }

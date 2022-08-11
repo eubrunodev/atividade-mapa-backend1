@@ -115,7 +115,10 @@ body{
     background-color: #E8941D;
     border-radius: 5px;
 }
-.card-marmita{
+.box p {
+    display: none;
+}
+.box{
     width: 200px;
     margin: 10px;
     padding: 10px;
@@ -123,18 +126,25 @@ body{
     background-color: white;
     border: 1px solid #6E3000;
 }
-.card-marmita:hover{
+.box:hover{
+    transform:scale(1.1);
+    z-index: 1;
+    margin: 0 20px;
     background-color: antiquewhite;
 }
-.card-marmita form h1{
+.box:hover p {
+    display: block;
+    text-align: start;
+    margin-bottom: 10px;
+}
+.card-marmita .box form h1{
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.card-marmita img {
-    /* border: 1px solid red; */
+.card-marmita .box form img {
     width: 200px;
 }
-.card-marmita hr {
+.card-marmita .box hr {
     margin-top: 20px;
     margin-left: 25%;
     width: 50%;
