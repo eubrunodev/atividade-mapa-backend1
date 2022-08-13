@@ -1,5 +1,5 @@
 <?php
-// adicionar quantos arrays quiser -- vou colocar 10 mas só 5 configurados certo
+// adicionar quantos arrays quiser -- vou colocar só 3
 
 $marmitas = array(
     0 => array(
